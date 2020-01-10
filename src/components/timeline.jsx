@@ -23,7 +23,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>QA Engineer Lead, Product Release Manager @ Mobify <span> Sept 2016 - Nov 2019</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
+                        <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
                       </div>
                     </div>
                   </article>
