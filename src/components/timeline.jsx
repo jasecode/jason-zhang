@@ -34,14 +34,8 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][1].experience} <span>{resumeData['timeline'][1].date}</span></h2>
-                        <ul>
-                          <li> 
                             {resumeData['timeline'][1].desc[0]}
-                          </li>
-                          <li> 
                             {resumeData['timeline'][1].desc[1]}
-                          </li>
-                        </ul>
                       </div>
                     </div>
                   </article>

@@ -6,7 +6,7 @@ export default class Skills extends Component {
     let rows = []
     let skillsList = resumeData["skills"]
     for (let i=0; i<Object.keys(skillsList).length; i++) {
-        rows.push(<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+        rows.push(<div key={resumeData["skills"][i]} class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
             <h3>{resumeData["skills"][i]}</h3>
         </div>)
     }
@@ -21,10 +21,10 @@ export default class Skills extends Component {
 						</div>
 					</div>
 					<div class="row">
-                        <div class="progress-wrap"> 
-                            {rows}
-                        </div>
-                    </div>
+            <div class="progress-wrap"> 
+                {rows}
+            </div>
+          </div>
 				</div>
 			</section>
       </div>

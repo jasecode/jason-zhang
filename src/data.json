@@ -32,8 +32,8 @@
         "desc": "Extensive experience testing mobile and desktop applications in functionality, performance, accessibility, design and security. Can comfortably own test development, execution and consultancy of said applications."
         },
         {
-        "skill": "Release Managemnet",
-        "hash": "#progam-mangaement",
+        "skill": "Release Management",
+        "hash": "#progam-management",
         "desc": "Experienced in cross departmental collaboration. Organizing all relevant stakeholders; PM’s, Engineers and QA involved to ensure proper communication, maximization of available resources and effective triage of risks to ensure smooth quality product releases. "
         },
         {
@@ -73,7 +73,7 @@
         "alt": "sony",
         "desc": [
             "Underwent a large boot-camp program of development projects and in-house training enhancing my knowledge of python tools development, UNIX shell scripting and video effects pipeline.",
-            "Collaboratively developed an Artist Reel Request Django web application that streamlined the process for the editors and artists to request their work from movies. This significantly reduced unnecessary overhead time as it consolidated the approval workflow, logging generation, data extraction, staging and shipping all into one tool."
+            "Collaboratively developed an Artist Reel Request Django web application that streamlined the process for the editors and artists to request their work from movies. This significantly reduced unnecessary overhead time as it consolidated the approval workflow, logging generation, data extraction, staging and shipping all into one tool. "
             ]
         },        
         {
