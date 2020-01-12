@@ -19,7 +19,7 @@ export default class About extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <img class="img-circle img-responsive" src="images/sfu.jpg" alt='sfu'></img>
+                        <img class="img-circle img-responsive" src={resumeData["education"][0].img} alt='sfu'></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData["education"][0].name} <span>{resumeData["education"][0].date}</span></h2>
@@ -30,7 +30,7 @@ export default class About extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
-                      <img class="img-circle img-responsive" src="images/britannia.jpg" alt='britannia'></img>
+                      <img class="img-circle img-responsive" src={resumeData["education"][1].img} alt='britannia'></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData["education"][1].name} <span>{resumeData["education"][1].date}</span></h2>
