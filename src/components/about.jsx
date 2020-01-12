@@ -14,7 +14,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Us</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>{resumeData.whoAmI}</p>
+                    <p>{resumeData["introduction"][0].whoAmI}</p>
                     </div>
                 </div>
                 </div>
@@ -23,22 +23,22 @@ export default class About extends Component {
             <div className='row'>
                 <div className="col-md-3 animate-box fadeInLeft animated">
                     <div className="services color-1">
-                    <h3>Quality Engineering</h3>
+                    <h3>{resumeData["introduction"][0].skills[0]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
                     <div className="services color-2">
-                    <h3>Software Development</h3>
+                    <h3>{resumeData["introduction"][0].skills[1]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
                     <div className="services color-3">
-                    <h3>Documentation and Enablement</h3>
+                    <h3>{resumeData["introduction"][0].skills[2]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
                     <div className="services color-5">
-                    <h3>Developer Management</h3>
+                    <h3>{resumeData["introduction"][0].skills[3]}</h3>
                     </div>
                 </div>
             </div>
@@ -59,9 +59,9 @@ export default class About extends Component {
                             <i className="icon-bulb" />
                         </span>
                         <div className="desc">
-                            <h3>{resumeData.skillTitle1}</h3>
-                            <p>{resumeData.skillDesc1}</p>
-                            <i>{resumeData.skillHash1}</i>
+                            <h3>{resumeData["aboutMe"][0].skill}</h3>
+                            <p>{resumeData["aboutMe"][0].desc}</p>
+                            <i>{resumeData["aboutMe"][0].hash}</i>
                         </div>
                     </div>
                 </div>
@@ -71,9 +71,9 @@ export default class About extends Component {
                             <i className="icon-codepen" />
                         </span>
                     <div className="desc">
-                        <h3>{resumeData.skillTitle2}</h3>
-                        <p>{resumeData.skillDesc2}</p>
-                        <i>{resumeData.skillHash2}</i>
+                        <h3>{resumeData["aboutMe"][1].skill}</h3>
+                        <p>{resumeData["aboutMe"][1].desc}</p>
+                        <i>{resumeData["aboutMe"][1].hash}</i>
                     </div>
                 </div>
             </div>
@@ -83,9 +83,9 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                     <div className="desc">
-                        <h3>{resumeData.skillTitle3}</h3>
-                        <p>{resumeData.skillDesc3}</p>
-                        <i>{resumeData.skillHash3}</i>
+                        <h3>{resumeData["aboutMe"][2].skill}</h3>
+                        <p>{resumeData["aboutMe"][2].desc}</p>
+                        <i>{resumeData["aboutMe"][2].hash}</i>
                     </div>
                 </div>
             </div>
@@ -97,9 +97,9 @@ export default class About extends Component {
                     <i className="icon-monitor" />
                 </span>
                 <div className="desc">
-                    <h3>{resumeData.skillTitle4}</h3>
-                    <p>{resumeData.skillDesc4}</p>
-                    <i>{resumeData.skillHash4}</i>
+                        <h3>{resumeData["aboutMe"][3].skill}</h3>
+                        <p>{resumeData["aboutMe"][3].desc}</p>
+                        <i>{resumeData["aboutMe"][3].hash}</i>
                 </div>
                 </div>
             </div>
@@ -109,9 +109,9 @@ export default class About extends Component {
                     <i className="icon-layers2" />
                 </span>
                 <div className="desc">
-                    <h3>{resumeData.skillTitle5}</h3>
-                    <p>{resumeData.skillDesc5}</p>
-                    <i>{resumeData.skillHash5}</i>
+                        <h3>{resumeData["aboutMe"][4].skill}</h3>
+                        <p>{resumeData["aboutMe"][4].desc}</p>
+                        <i>{resumeData["aboutMe"][4].hash}</i>
                 </div>
                 </div>
             </div>
@@ -121,9 +121,9 @@ export default class About extends Component {
                     <i className="icon-command2" />
                 </span>
                 <div className="desc">
-                    <h3>{resumeData.skillTitle6}</h3>
-                    <p>{resumeData.skillDesc6}</p>
-                    <i>{resumeData.skillHash6}</i>
+                        <h3>{resumeData["aboutMe"][5].skill}</h3>
+                        <p>{resumeData["aboutMe"][5].desc}</p>
+                        <i>{resumeData["aboutMe"][5].hash}</i>
                 </div>
                 </div>
             </div>

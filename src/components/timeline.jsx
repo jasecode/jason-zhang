@@ -22,8 +22,8 @@ export default class Timeline extends Component {
                       <img class="img-circle img-responsive" src="images/mobify.png" alt='mobify'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>QA Engineer Lead, Product Release Manager @ Mobify <span> Sept 2016 - Nov 2019</span></h2>
-                        <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
+                        <h2>{resumeData['timeline'][0].experience} <span> {resumeData['timeline'][0].date}</span></h2>
+                        <p>{resumeData['timeline'][0].desc}</p>
                       </div>
                     </div>
                   </article>
@@ -33,8 +33,8 @@ export default class Timeline extends Component {
                         <img class="img-circle img-responsive" src="images/sfu.jpg" alt='sfu'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>IT Technician @ SFU <span>2016</span></h2>
-                        <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
+                        <h2>{resumeData['timeline'][1].experience} <span>{resumeData['timeline'][1].date}</span></h2>
+                        <p>{resumeData['timeline'][0].desc}</p>
                       </div>
                     </div>
                   </article>
@@ -44,7 +44,7 @@ export default class Timeline extends Component {
                         <img class="img-circle img-responsive" src="images/sony.jpg" alt='sony'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>Production Services Technician @ Sony Imageworks <span>2016</span></h2>
+                        <h2>{resumeData['timeline'][2].experience} <span>{resumeData['timeline'][2].date}</span></h2>
                         <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
                       </div>
                     </div>
@@ -55,7 +55,7 @@ export default class Timeline extends Component {
                         <img class="img-circle img-responsive" src="images/samsung.png" alt='samsung'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>QA Automation Engineer @ Samsung Electronics<span>2015</span></h2>
+                        <h2>{resumeData['timeline'][3].experience} <span>{resumeData['timeline'][3].date}</span></h2>
                         <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
                       </div>
                     </div>
@@ -66,7 +66,7 @@ export default class Timeline extends Component {
                         <img class="img-circle img-responsive" src="images/gossamer-threads.jpg" alt='sfu'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>QA Analyst @ Gossamer Threads <span>2014</span></h2>
+                        <h2>{resumeData['timeline'][4].experience} <span>{resumeData['timeline'][4].date}</span></h2>
                         <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
                       </div>
                     </div>

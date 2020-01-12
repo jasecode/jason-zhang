@@ -22,8 +22,8 @@ export default class About extends Component {
                         <img class="img-circle img-responsive" src="images/sfu.jpg" alt='sfu'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>Graduation at SFU <span>2011-2016</span></h2>
-                        <p>In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience.</p>
+                        <h2>{resumeData["education"][0].name} <span>{resumeData["education"][0].date}</span></h2>
+                        <p>{resumeData["education"][0].desc}</p>
                       </div>
                     </div>
                   </article>
@@ -33,8 +33,8 @@ export default class About extends Component {
                       <img class="img-circle img-responsive" src="images/britannia.jpg" alt='britannia'></img>
                       </div>
                       <div className="timeline-label">
-                        <h2>Britannia Secondary, IB Diploma <span>2006-2011</span></h2>
-                        <p>{resumeData.highschool}</p> 
+                        <h2>{resumeData["education"][1].name} <span>{resumeData["education"][1].date}</span></h2>
+                        <p>{resumeData["education"][1].desc}</p> 
                       </div>
                     </div>
                   </article>
