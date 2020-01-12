@@ -645,12 +645,20 @@ body.offcanvas {
       color: #f9bf3f; }
   .services.color-4 {
     border-bottom: 2px solid #a84cb8; }
-    .services.color-4 .icon2 i {
+  .services.color-4 .icon2 i {
       color: #a84cb8; }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
     border-bottom: 2px solid #4054b2; }
+  .services.color-all-1 {
+    border: 2px solid #2c98f0; }
+  .services.color-all-2 {
+    border: 2px solid #ec5453; }
+  .services.color-all-3 {
+    border: 2px solid #f9bf3f; }
+  .services.color-all-4 {
+    border: 2px solid #a84cb8; }
 
 .services {
   margin-bottom: 80px;

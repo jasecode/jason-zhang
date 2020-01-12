@@ -22,22 +22,22 @@ export default class Introduction extends Component {
             </div>
             <div className='row'>
                 <div className="col-md-3 animate-box fadeInLeft animated">
-                    <div className="services color-1">
+                    <div className="services color-all-1">
                     <h3>{resumeData["introduction"][0].skills[0]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
-                    <div className="services color-2">
+                    <div className="services color-all-2">
                     <h3>{resumeData["introduction"][0].skills[1]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
-                    <div className="services color-3">
+                    <div className="services color-all-3">
                     <h3>{resumeData["introduction"][0].skills[2]}</h3>
                     </div>
                 </div>
                 <div className="col-md-3 animate-box fadeInLeft animated">
-                    <div className="services color-5">
+                    <div className="services color-all-4">
                     <h3>{resumeData["introduction"][0].skills[3]}</h3>
                     </div>
                 </div>
