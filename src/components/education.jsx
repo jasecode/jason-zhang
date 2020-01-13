@@ -5,7 +5,7 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <div>
-        <section className="colorlib-education" data-section="educaiton">
+        <section className="colorlib-education" data-section="education">
         <div className="colorlib-narrow-content">
             <div className="row">
                 <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">

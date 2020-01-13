@@ -1,7 +1,7 @@
 {
     "name": "Jason Zhang",
     "introduction": [{
-        "whoAmI": "I am a QA Engineer Lead, with many experiences including software development, technical training and product release management. I'm constantly inspired working with diverse and knowledgeable individuals both within the organization and outside of it on a global scale with Partners. I bring to the table the visions of high quality software and processes advocating for user focused features, universally accessible design, and positive developer experiences.",
+        "whoAmI": " I am a Quality Engineer, with many experiences including software development, technical training and product release management. At heart, I am extremely passionate in the technlogy space. My core values include kindness, empathy and gratitude which I strive constantly to bring to my workplace. I'm constantly inspired working with diverse and knowledgeable individuals both within the organization and outside of it on a global scale with Partners. I bring to the table the visions of high quality software and processes advocating for user focused features, universally accessible design, and positive developer experiences. Currently, I'm working on improving my Quality Engineering technical skills as well as looking to go into developer management.",
         "skills": [
             "QA Engineering",
             "Software Development",
@@ -23,7 +23,7 @@
         {
         "skill": "Continuous Integration & Deployment",
         "hash": "#devops",
-        "desc": "An advocate of best development practices which including optimizing branching, orchestrating build, test & deploy infrastructure."
+        "desc": "An advocate of best development practices which includes optimizing branching, orchestrating build, test & deploy infrastructure."
         },
         {
         "skill": "Web Application Testing",
@@ -32,7 +32,7 @@
         },
         {
         "skill": "Release Management",
-        "hash": "#progam-management",
+        "hash": "#program-management",
         "desc": "Experienced in cross departmental collaboration. Organizing all relevant stakeholders; PM’s, Engineers and QA involved to ensure proper communication, maximization of available resources and effective triage of risks to ensure smooth quality product releases. "
         },
         {
@@ -49,7 +49,7 @@
             "name": "Bachelor of Science, Software Systems @ Simon Fraser University",
             "date": "2011-2016",
             "img": "images/sfu.jpg",
-            "desc": "In October of 2016, I graudated from Simon Fraser University earning Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience."
+            "desc": "In October of 2016, I graduated from Simon Fraser University earning a Bachelor of Science in Software Systems by the Faculty of Applied Sciences, along with a Co-op Certificate of Completion for acquiring 16 months of industry experience."
         },
         {
             "name": "Highschool, International Baccalaureate Diploma @ Britannia Secondary School",
@@ -63,7 +63,7 @@
         "date": "2016-2019",
         "img": "images/mobify.png",
         "alt": "mobify",
-        "desc": "Contributed to the Mobify test framework and our Build and Test Infrastructure of Continuous Integration/Delivery, Performance Tests (Lighthouse, WebPageTest), End-to-End tests (Nightwatch, Selenium, Appium, Node.js) and general development tools (Bash, Node.js). Owned the company 6-week release cycle journey of planning, launch and retrospectives which included management of communications, collaboration, risk assessment, deployment and future iterations."
+        "desc": "Championed Mobify’s Test Principles and Developer Values for both the organization and our partner and customer network. Contributed to the Mobify test framework and our Build and Test Infrastructure of Continuous Integration/Delivery, Performance Tests (Lighthouse, WebPageTest), End-to-End tests (Nightwatch, Selenium, Appium, Node.js) and general development tools (Bash, Node.js). Owned the company 6-week release cycle journey of planning, launch and retrospectives which included management of communications, collaboration, risk assessment, deployment and future iterations."
         },
         {
         "experience": "Production Services Technician @ Sony",
@@ -71,7 +71,7 @@
         "img": "images/sony.jpg",
         "alt": "sony",
         "desc": [
-            "Underwent a large boot-camp program of development projects and in-house training enhancing my knowledge of python tools development, UNIX shell scripting and video effects pipeline.",
+            "Underwent a large boot-camp program of development projects and in-house training enhancing my knowledge of python tools development, UNIX shell scripting and video effects pipeline. ",
             "Collaboratively developed an Artist Reel Request Django web application that streamlined the process for the editors and artists to request their work from movies. This significantly reduced unnecessary overhead time as it consolidated the approval workflow, logging generation, data extraction, staging and shipping all into one tool. "
             ]
         },        
@@ -87,14 +87,14 @@
         "date": "2016-2019",
         "img": "images/samsung.png",
         "alt": "samsung",
-        "desc": "Worked closely with the SEAP and KNOX Portal team to develop project schedules, execute test plans, and automation in an Agile Scrum process which led to many high quality and successful releases under tight deadlines."
+        "desc": "Worked closely with the SEAP and KNOX Portal team to develop project schedules, execute test plans, and automation in an Agile Scrum process which led to many high quality and successful releases under tight deadlines. Created automated scripts and various tools (LinkCheckers, Scrapers) using Selenium and Robot Framework resulting in the reduction manual regressions test cycles allowing the manual team to strictly focus on edge-cases to increase the quality of the application."
         },
         {
-        "experience": "QA Analyst @ Gossammer Threads",
+        "experience": "QA Analyst @ Gossamer Threads",
         "date": "2014",
         "img": "images/gossamer-threads.jpg",
         "alt": "gossamer-threads",
-        "desc": "As one of the two only QA analysts of the company, I was responsible for undertaking many sites and large features sets independently, managing its QA processes before release to ensure client satisfaction and high product quality."
+        "desc": "As one of the two only QA analysts of the company, I was responsible for undertaking many sites and large features sets independently, managing its QA processes before release to ensure client satisfaction and high product quality. Performing various application testing, I was exposed to a variety of different technologies like forums including The Student Room, university registration systems and copy-editing system (Wordy)."
         }
     ]
 }

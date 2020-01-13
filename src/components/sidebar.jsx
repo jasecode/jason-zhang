@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 export default class Sidebar extends Component {
   render() {
+    const year = new Date().getFullYear()
     return (
       <div>
         <div>
@@ -36,9 +37,10 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
+                  Made with <i className="icon-heart" aria-hidden="true" /> <br></br>
+                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for theme inspiration  
               </small></p>
+              <p><small>&copy; Copyright {year} Jason Zhang</small></p>
             </div>
           </aside>
         </div>
