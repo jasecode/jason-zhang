@@ -42,7 +42,7 @@
         }
     ],
     "skills": [
-        "Javascript (Node.Js)", "Python", "Bash (Shell,UNIX)", "Xpath","CSS", "HTML", "SQL", "CircleCI", "Jenkins", "Nightwatch.js", "Cypress.io", "Robot Framework", "Lighthouse", "WebPageTest", "Postman API", "Jmeter"
+        "Javascript (Node.Js)", "Python", "Bash (Shell,UNIX)", "Xpath","CSS", "HTML", "SQL", "CircleCI", "Jenkins", "Nightwatch.js", "Cypress.io", "Selenium", "Lighthouse", "WebPage Test", "Postman", "Jmeter"
     ],
     "education": [
         {
