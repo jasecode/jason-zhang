@@ -24,7 +24,7 @@ jobs:
 
       # run tests!
     #   - run: npm test
-deploy:
+  deploy:
     docker:
         - image: circleci/node:10.17
     working_directory: ~/jason-zhang
