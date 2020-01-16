@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Hero from './components/hero'
 import Introduction from './components/introduction';
 import About from './components/about'
