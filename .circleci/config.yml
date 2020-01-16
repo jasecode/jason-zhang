@@ -37,11 +37,11 @@ deploy-job:
         - run:
             name: Deploy Master to github pages
             command: npm run deploy
- 
+
 workflows:
-version: 2
+    version: 2
     build-deploy:
-        jobs:
+      jobs:
         - build
         - deploy:
             requires:
