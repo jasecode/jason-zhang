@@ -1,4 +1,10 @@
 import React, { Component } from 'react'
+import mobifyImg from "../images/mobify.png"
+import sonyImg from  "../images/sony.jpg"
+import sfuImg from  "../images/sfu.jpg"
+import samsungImg from  "../images/samsung.png"
+import gsImg from  "../images/gossamer-threads.jpg"
+
 
 export default class Timeline extends Component {
   render() {
@@ -19,7 +25,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                      <img class="img-circle img-responsive" src={resumeData['timeline'][0].img} alt={resumeData['timeline'][0].alt}></img>
+                      <img class="img-circle img-responsive" src={mobifyImg} alt={resumeData['timeline'][0].alt}></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][0].experience} <span> {resumeData['timeline'][0].date}</span></h2>
@@ -30,7 +36,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <img class="img-circle img-responsive" src={resumeData['timeline'][1].img} alt={resumeData['timeline'][1].alt}></img>
+                        <img class="img-circle img-responsive" src={sonyImg} alt={resumeData['timeline'][1].alt}></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][1].experience} <span>{resumeData['timeline'][1].date}</span></h2>
@@ -42,7 +48,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <img class="img-circle img-responsive" src={resumeData['timeline'][2].img} alt={resumeData['timeline'][2].alt}></img>
+                        <img class="img-circle img-responsive" src={sfuImg} alt={resumeData['timeline'][2].alt}></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][2].experience} <span>{resumeData['timeline'][2].date}</span></h2>
@@ -53,7 +59,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <img class="img-circle img-responsive" src={resumeData['timeline'][3].img} alt={resumeData['timeline'][3].alt}></img>
+                        <img class="img-circle img-responsive" src={samsungImg} alt={resumeData['timeline'][3].alt}></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][3].experience} <span>{resumeData['timeline'][3].date}</span></h2>
@@ -64,7 +70,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <img class="img-circle img-responsive" src={resumeData['timeline'][4].img} alt={resumeData['timeline'][4].alt}></img>
+                        <img class="img-circle img-responsive" src={gsImg} alt={resumeData['timeline'][4].alt}></img>
                       </div>
                       <div className="timeline-label">
                         <h2>{resumeData['timeline'][4].experience} <span>{resumeData['timeline'][4].date}</span></h2>
