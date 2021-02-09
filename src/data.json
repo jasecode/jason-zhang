@@ -59,8 +59,15 @@
         }
     ],
     "timeline": [{
+        "experience": "Software Engineer in Test II @ Galvanize",
+        "date": "2020-Present",
+        "img": "images/galvanize.png",
+        "alt": "galvanize",
+        "desc": ""
+        },
+        {
         "experience": "QA Engineer Lead, Product Release Manager @ Mobify",
-        "date": "2016-2019",
+        "date": "2016-2020",
         "img": "images/mobify.png",
         "alt": "mobify",
         "desc": "Championed Mobify’s Test Principles and Developer Values for both the organization and our partner and customer network. Contributed to the Mobify test framework and our Build and Test Infrastructure of Continuous Integration/Delivery, Performance Tests (Lighthouse, WebPageTest), End-to-End tests (Nightwatch, Selenium, Appium, Node.js) and general development tools (Bash, Node.js). Owned the company 6-week release cycle journey of planning, launch and retrospectives which included management of communications, collaboration, risk assessment, deployment and future iterations."
