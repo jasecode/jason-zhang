@@ -22,8 +22,8 @@ class App extends Component {
           <Introduction resumeData={resumeData}></Introduction>
           <Skills resumeData={resumeData}></Skills>
 					<About resumeData={resumeData}></About>
-          <Education resumeData={resumeData}></Education>
           <Timeline resumeData={resumeData}></Timeline>
+          <Education resumeData={resumeData}></Education>
           	</div>
       	</div>
       </div>

@@ -1,7 +1,7 @@
 {
     "name": "Jason Zhang",
     "introduction": [{
-        "whoAmI": " I am a Quality Engineer, with many experiences including software development, technical training and product release management. At heart, I am extremely passionate in the technlogy space. My core values include kindness, empathy and gratitude which I strive constantly to bring to my workplace. I'm constantly inspired working with diverse and knowledgeable individuals both within the organization and outside of it on a global scale with Partners. I bring to the table the visions of high quality software and processes advocating for user focused features, universally accessible design, and positive developer experiences. Currently, I'm working on improving my Quality Engineering technical skills as well as looking to go into developer management.",
+        "whoAmI": " I am a Quality Engineer, with many experiences including software development, technical training and product release management. At heart, I am extremely passionate in the technlogy space. My core values include kindness, empathy and gratitude which I strive constantly to bring to my workplace. I'm constantly inspired working with diverse and knowledgeable individuals both within the organization and outside of it on a global scale with Partners. I bring to the table the visions of high quality software and processes advocating for user focused features, universally accessible design, and positive developer experiences. Currently, I'm working on improving my Quality Engineering technical skills as well as looking to go into developer or technical program management.",
         "skills": [
             "QA Engineering",
             "Software Development",
@@ -21,14 +21,14 @@
         "desc": "Developed, extended and configured various developer tools and test frameworks (Integration, E2E, Performance) that contribute to software quality."
         },
         {
-        "skill": "Continuous Integration & Deployment",
+        "skill": "Continuous Integration, Deployment, Monitoring",
         "hash": "#devops",
-        "desc": "An advocate of best development practices which includes optimizing branching, orchestrating build, test & deploy infrastructure."
+        "desc": "An advocate of best development practices which includes orchestrating build, test & deploy infrastructure as well as in post-deploy through observing alerts and maintaining thresholds."
         },
         {
-        "skill": "Web Application Testing",
+        "skill": "Web Application & API Testing",
         "hash": "#software-qa",
-        "desc": "Extensive experience testing mobile and desktop applications in functionality, performance, accessibility, design and security. Can comfortably own test development, execution and consultancy of said applications."
+        "desc": "Extensive experience testing mobile and desktop applications in functionality, performance, accessibility, design and security. Can comfortably own test development, execution and consultancy of said applications and services."
         },
         {
         "skill": "Release Management",
@@ -42,7 +42,7 @@
         }
     ],
     "skills": [
-        "Javascript (Node.Js)", "Python", "Bash (Shell,UNIX)", "Xpath","CSS", "HTML", "SQL", "CircleCI", "Jenkins", "Nightwatch.js", "Cypress.io", "Selenium", "Lighthouse", "WebPage Test", "Postman", "Jmeter"
+        "Javascript (Node.js)", "Python", "Bash (Shell,UNIX)", "XPath & CSS Selectors", "HTML", "SQL", "CircleCI", "Jenkins", "Semaphore", "Nightwatch.js", "Rspec & Capybara", "Cypress.io", "Selenium", "Lighthouse", "Postman API", "Jmeter", "Datadog", "Amazon Web Services", "Google Analytics", "JIRA"
     ],
     "education": [
         {
@@ -63,7 +63,7 @@
         "date": "2020-Present",
         "img": "images/galvanize.png",
         "alt": "galvanize",
-        "desc": ""
+        "desc": "As a founding member of a new Brigade - I supported the RnD Manager by leading the new brand team from a Quality Engineering perspective to deliver new features in the flagship product of the organization without incidents. Conducted testing throughout the testing pyramid from functional API testing (Postman, Insomnia) to UI functionality and usability testing to ensure our customer requirements are met. Developed and maintained automation for existing and new features to mitigate risk using Ruby Rspec & Capybara as well as organized new initiatives such as implementing Screener Webdriver for visual testing. Advanced our Projects Module Monitoring process through improving our investigation strategies of various production alerts (Datadog, Airbrakes, AWS Athena, Cloudwatch) as well as smoothening our deployments (Semaphore, CodePipeline) throughout our 7000 customers in 7 different regions. Led by influence through being the host of Bi-Weekly Software Engineer in Test meetings to organize initiatives, iterative improvements, and increasing overall team unity."
         },
         {
         "experience": "QA Engineer Lead, Product Release Manager @ Mobify",
