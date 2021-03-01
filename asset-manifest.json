@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jason-zhang/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/jason-zhang/static/js/main.cb5a7ee3.chunk.js",
+    "main.js.map": "/jason-zhang/static/js/main.cb5a7ee3.chunk.js.map",
+    "runtime-main.js": "/jason-zhang/static/js/runtime-main.cd447414.js",
+    "runtime-main.js.map": "/jason-zhang/static/js/runtime-main.cd447414.js.map",
+    "static/js/2.8200cae3.chunk.js": "/jason-zhang/static/js/2.8200cae3.chunk.js",
+    "static/js/2.8200cae3.chunk.js.map": "/jason-zhang/static/js/2.8200cae3.chunk.js.map",
+    "index.html": "/jason-zhang/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/jason-zhang/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.8200cae3.chunk.js.LICENSE.txt": "/jason-zhang/static/js/2.8200cae3.chunk.js.LICENSE.txt",
+    "static/media/about.99ea9cf5.jpg": "/jason-zhang/static/media/about.99ea9cf5.jpg",
+    "static/media/britannia.705697cd.jpg": "/jason-zhang/static/media/britannia.705697cd.jpg",
+    "static/media/galvanize.20328c57.png": "/jason-zhang/static/media/galvanize.20328c57.png",
+    "static/media/img_bg.c10c01a9.jpg": "/jason-zhang/static/media/img_bg.c10c01a9.jpg",
+    "static/media/mobify.d0bbb16a.png": "/jason-zhang/static/media/mobify.d0bbb16a.png",
+    "static/media/sfu.16d06090.jpg": "/jason-zhang/static/media/sfu.16d06090.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd447414.js",
+    "static/js/2.8200cae3.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.cb5a7ee3.chunk.js"
+  ]
+}
